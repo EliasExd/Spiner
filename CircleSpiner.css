@@ -1,14 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: black;
+}
 .Spiner{
 
     background-color: orangered;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 25px solid white;
+    border: 25px solid black;
     border-top: 20px solid indigo;
     animation: ani 2.5s linear infinite;
-    margin: auto;
-
+   
 
 }
 
